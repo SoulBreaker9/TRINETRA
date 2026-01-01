@@ -1,0 +1,15 @@
+# Python
+backend/venv/
+backend/truthlens_env/
+backend/__pycache__/
+*.pyc
+*.log
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# Secrets (NEVER UPLOAD THESE)
+backend/service-account.json
+backend/VANISH.json
+.env
