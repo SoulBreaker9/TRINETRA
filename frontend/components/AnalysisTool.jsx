@@ -25,7 +25,7 @@ export default function AnalysisTool() {
         setUploading(true);
         setResult(null);
 
-        const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:5001';
+        const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://shrey5723-deep-fake-project.hf.space';
         const formData = new FormData();
         formData.append("file", file);
         formData.append("mode", mode);
