@@ -1,0 +1,41 @@
+# Virtual Environment
+truthlens_env/
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment Variables (KEEP SECRET!)
+.env
+
+# Logs
+*.log
+load_log.txt
+
+# Generated files (created at runtime)
+generated/
+
+# Debug/Test files
+debug_*.py
+test_*.py
+check_*.py
+list_models.py
+cleanup.ps1
+verification_suite.py
+local_engine.py
+model_loader.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
