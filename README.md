@@ -1,8 +1,19 @@
 # 👁️ TRINETRA: The Third Eye (Deepfake Detection)
 
+# 👁️ TRINETRA: The Third Eye
+
 [![GDG Hackathon](https://img.shields.io/badge/Hackathon-GDG-blue?style=for-the-badge&logo=google)](https://developers.google.com/community/gdg)
-[![Tech Stack](https://img.shields.io/badge/Stack-FastAPI%20|%20React%20|%20PyTorch-green?style=for-the-badge)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![Maintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/yourusername/trinetra)
+
+[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://deepmind.google/technologies/gemini/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge&color=FFD21E)](https://huggingface.co/)
+
+[![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
+
 
 > **"In an era of artificial lies, the only cure is artificial truth."**
 
@@ -48,16 +59,8 @@ A custom "Soft-Voting" algorithm aggregates confidence scores from all models to
 
 ## 🏗️ Architecture
 
-```mermaid
-graph TD;
-    A[User Uploads Video] --> B{Preprocessing};
-    B -->|Keyframe Extraction| C[Vision Transformer];
-    B -->|Frame Analysis| D[CNN + Grad-CAM];
-    B -->|Context Extraction| E[Gemini API];
-    C --> F[Weighted Ensemble];
-    D --> F;
-    E --> F;
-    F --> G[Final Verdict & Heatmap Generation];
+<img width="2715" height="2981" alt="Untitled diagram-2026-01-13-143002" src="https://github.com/user-attachments/assets/9edda56e-df4c-48fe-8abc-ad0fa77e80ac" />
+
 
 ⚙️ Installation & Setup:
 
