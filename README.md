@@ -74,26 +74,35 @@ Gemini API Key
 2. Backend Setup
 
     cd backend
+   
     #Create virtual environment
+   
     python -m venv venv
+   
     source venv/bin/activate  # On Windows: venv\Scripts\activate
     
     #Install dependencies
+   
     pip install -r requirements.txt
     
     #Create .env file and add your API keys
+   
     echo "GEMINI_API_KEY=your_api_key_here" > .env
     
     #Run the server
+   
     uvicorn main:app --reload
 
-3. Frontend Setup
+4. Frontend Setup
 
     cd frontend
+   
     #Install dependencies
+   
     npm install
     
     #Run the development server
+   
     npm run dev
 
 
