@@ -115,3 +115,5 @@ Gemini API Key
   Gemini validates the scene logic.
 4. Aggregation: The Ensemble engine weights the results (e.g., 40% ViT, 30% Gemini, 30% CNN) to calculate a Trust Score.
 5. Output: The UI displays the Verdict (Real/Fake), the Trust Score %, and the Explainable Heatmap.
+
+🌐 Live Demo: https://lnkd.in/g6CZ6x7f
